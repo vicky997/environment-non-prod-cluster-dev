@@ -4,6 +4,7 @@ metadata:
   annotations:
     jenkins.io/last-build-number-for-master: "2"
     jenkins.io/last-build-number-for-pr-1: "1"
+    jenkins.io/last-build-number-for-staging: "1"
   creationTimestamp: null
   labels:
     jenkins.io/chart-release: repos
