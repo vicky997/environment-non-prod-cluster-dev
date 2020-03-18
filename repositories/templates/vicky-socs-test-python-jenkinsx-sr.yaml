@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: vicky-socs
+    provider: github
+    repository: test-python-jenkinsx
+  name: vicky-socs-test-python-jenkinsx
+spec:
+  description: Imported application for vicky-socs/test-python-jenkinsx
+  httpCloneURL: https://github.com/vicky-socs/test-python-jenkinsx.git
+  org: vicky-socs
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-python-jenkinsx
+  scheduler:
+    kind: ""
+    name: default-scheduler
+  url: git@github.com:vicky-socs/test-python-jenkinsx.git
