@@ -1,0 +1,10 @@
+adminUser:
+  password: local:non-prod-cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: 'vicky@squareops.com '
+  token: local:non-prod-cluster/pipelineUser:token
+  username: vicky997
+prow:
+  hmacToken: local:non-prod-cluster/prow:hmacToken
