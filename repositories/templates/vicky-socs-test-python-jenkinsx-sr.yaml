@@ -2,14 +2,19 @@ apiVersion: jenkins.io/v1
 kind: SourceRepository
 metadata:
   annotations:
-    jenkins.io/last-build-number-for-master: "3"
+    jenkins.io/last-build-number-for-master: "4"
     jenkins.io/last-build-number-for-pr-1: "1"
-    jenkins.io/last-build-number-for-staging: "1"
+    jenkins.io/last-build-number-for-pr-2: "1"
+    jenkins.io/last-build-number-for-pr-3: "1"
+    jenkins.io/last-build-number-for-pr-4: "1"
+    jenkins.io/last-build-number-for-pr-5: "1"
+    jenkins.io/last-build-number-for-pr-6: "1"
+    jenkins.io/last-build-number-for-staging: "6"
   creationTimestamp: null
   labels:
     jenkins.io/chart-release: repos
     jenkins.io/namespace: jx
-    jenkins.io/version: "5"
+    jenkins.io/version: "6"
     owner: vicky-socs
     provider: github
     repository: test-python-jenkinsx
